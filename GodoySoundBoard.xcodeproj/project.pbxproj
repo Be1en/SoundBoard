@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADF37822BF2B6C600BD7ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF37812BF2B6C600BD7ED9 /* AppDelegate.swift */; };
+		FADF37842BF2B6C600BD7ED9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF37832BF2B6C600BD7ED9 /* SceneDelegate.swift */; };
+		FADF37862BF2B6C600BD7ED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF37852BF2B6C600BD7ED9 /* ViewController.swift */; };
+		FADF37892BF2B6C600BD7ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF37872BF2B6C600BD7ED9 /* Main.storyboard */; };
+		FADF378C2BF2B6C600BD7ED9 /* GodoySoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FADF378A2BF2B6C600BD7ED9 /* GodoySoundBoard.xcdatamodeld */; };
+		FADF378E2BF2B6C700BD7ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADF378D2BF2B6C700BD7ED9 /* Assets.xcassets */; };
+		FADF37912BF2B6C700BD7ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF378F2BF2B6C700BD7ED9 /* LaunchScreen.storyboard */; };
+		FADF379C2BF2B6C700BD7ED9 /* GodoySoundBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF379B2BF2B6C700BD7ED9 /* GodoySoundBoardTests.swift */; };
+		FADF37A62BF2B6C700BD7ED9 /* GodoySoundBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF37A52BF2B6C700BD7ED9 /* GodoySoundBoardUITests.swift */; };
+		FADF37A82BF2B6C700BD7ED9 /* GodoySoundBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF37A72BF2B6C700BD7ED9 /* GodoySoundBoardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADF37982BF2B6C700BD7ED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADF37762BF2B6C600BD7ED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADF377D2BF2B6C600BD7ED9;
+			remoteInfo = GodoySoundBoard;
+		};
+		FADF37A22BF2B6C700BD7ED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADF37762BF2B6C600BD7ED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADF377D2BF2B6C600BD7ED9;
+			remoteInfo = GodoySoundBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADF377E2BF2B6C600BD7ED9 /* GodoySoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodoySoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADF37812BF2B6C600BD7ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADF37832BF2B6C600BD7ED9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FADF37852BF2B6C600BD7ED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FADF37882BF2B6C600BD7ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADF378B2BF2B6C600BD7ED9 /* GodoySoundBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GodoySoundBoard.xcdatamodel; sourceTree = "<group>"; };
+		FADF378D2BF2B6C700BD7ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADF37902BF2B6C700BD7ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADF37922BF2B6C700BD7ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADF37972BF2B6C700BD7ED9 /* GodoySoundBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodoySoundBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADF379B2BF2B6C700BD7ED9 /* GodoySoundBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodoySoundBoardTests.swift; sourceTree = "<group>"; };
+		FADF37A12BF2B6C700BD7ED9 /* GodoySoundBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodoySoundBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADF37A52BF2B6C700BD7ED9 /* GodoySoundBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodoySoundBoardUITests.swift; sourceTree = "<group>"; };
+		FADF37A72BF2B6C700BD7ED9 /* GodoySoundBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodoySoundBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADF377B2BF2B6C600BD7ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADF37942BF2B6C700BD7ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADF379E2BF2B6C700BD7ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADF37752BF2B6C600BD7ED9 = {
+			isa = PBXGroup;
+			children = (
+				FADF37802BF2B6C600BD7ED9 /* GodoySoundBoard */,
+				FADF379A2BF2B6C700BD7ED9 /* GodoySoundBoardTests */,
+				FADF37A42BF2B6C700BD7ED9 /* GodoySoundBoardUITests */,
+				FADF377F2BF2B6C600BD7ED9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADF377F2BF2B6C600BD7ED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADF377E2BF2B6C600BD7ED9 /* GodoySoundBoard.app */,
+				FADF37972BF2B6C700BD7ED9 /* GodoySoundBoardTests.xctest */,
+				FADF37A12BF2B6C700BD7ED9 /* GodoySoundBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADF37802BF2B6C600BD7ED9 /* GodoySoundBoard */ = {
+			isa = PBXGroup;
+			children = (
+				FADF37812BF2B6C600BD7ED9 /* AppDelegate.swift */,
+				FADF37832BF2B6C600BD7ED9 /* SceneDelegate.swift */,
+				FADF37852BF2B6C600BD7ED9 /* ViewController.swift */,
+				FADF37872BF2B6C600BD7ED9 /* Main.storyboard */,
+				FADF378D2BF2B6C700BD7ED9 /* Assets.xcassets */,
+				FADF378F2BF2B6C700BD7ED9 /* LaunchScreen.storyboard */,
+				FADF37922BF2B6C700BD7ED9 /* Info.plist */,
+				FADF378A2BF2B6C600BD7ED9 /* GodoySoundBoard.xcdatamodeld */,
+			);
+			path = GodoySoundBoard;
+			sourceTree = "<group>";
+		};
+		FADF379A2BF2B6C700BD7ED9 /* GodoySoundBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADF379B2BF2B6C700BD7ED9 /* GodoySoundBoardTests.swift */,
+			);
+			path = GodoySoundBoardTests;
+			sourceTree = "<group>";
+		};
+		FADF37A42BF2B6C700BD7ED9 /* GodoySoundBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADF37A52BF2B6C700BD7ED9 /* GodoySoundBoardUITests.swift */,
+				FADF37A72BF2B6C700BD7ED9 /* GodoySoundBoardUITestsLaunchTests.swift */,
+			);
+			path = GodoySoundBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADF377D2BF2B6C600BD7ED9 /* GodoySoundBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADF37AB2BF2B6C700BD7ED9 /* Build configuration list for PBXNativeTarget "GodoySoundBoard" */;
+			buildPhases = (
+				FADF377A2BF2B6C600BD7ED9 /* Sources */,
+				FADF377B2BF2B6C600BD7ED9 /* Frameworks */,
+				FADF377C2BF2B6C600BD7ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GodoySoundBoard;
+			productName = GodoySoundBoard;
+			productReference = FADF377E2BF2B6C600BD7ED9 /* GodoySoundBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADF37962BF2B6C700BD7ED9 /* GodoySoundBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADF37AE2BF2B6C700BD7ED9 /* Build configuration list for PBXNativeTarget "GodoySoundBoardTests" */;
+			buildPhases = (
+				FADF37932BF2B6C700BD7ED9 /* Sources */,
+				FADF37942BF2B6C700BD7ED9 /* Frameworks */,
+				FADF37952BF2B6C700BD7ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADF37992BF2B6C700BD7ED9 /* PBXTargetDependency */,
+			);
+			name = GodoySoundBoardTests;
+			productName = GodoySoundBoardTests;
+			productReference = FADF37972BF2B6C700BD7ED9 /* GodoySoundBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FADF37A02BF2B6C700BD7ED9 /* GodoySoundBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADF37B12BF2B6C700BD7ED9 /* Build configuration list for PBXNativeTarget "GodoySoundBoardUITests" */;
+			buildPhases = (
+				FADF379D2BF2B6C700BD7ED9 /* Sources */,
+				FADF379E2BF2B6C700BD7ED9 /* Frameworks */,
+				FADF379F2BF2B6C700BD7ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADF37A32BF2B6C700BD7ED9 /* PBXTargetDependency */,
+			);
+			name = GodoySoundBoardUITests;
+			productName = GodoySoundBoardUITests;
+			productReference = FADF37A12BF2B6C700BD7ED9 /* GodoySoundBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADF37762BF2B6C600BD7ED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FADF377D2BF2B6C600BD7ED9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FADF37962BF2B6C700BD7ED9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FADF377D2BF2B6C600BD7ED9;
+					};
+					FADF37A02BF2B6C700BD7ED9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FADF377D2BF2B6C600BD7ED9;
+					};
+				};
+			};
+			buildConfigurationList = FADF37792BF2B6C600BD7ED9 /* Build configuration list for PBXProject "GodoySoundBoard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADF37752BF2B6C600BD7ED9;
+			productRefGroup = FADF377F2BF2B6C600BD7ED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADF377D2BF2B6C600BD7ED9 /* GodoySoundBoard */,
+				FADF37962BF2B6C700BD7ED9 /* GodoySoundBoardTests */,
+				FADF37A02BF2B6C700BD7ED9 /* GodoySoundBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADF377C2BF2B6C600BD7ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADF37912BF2B6C700BD7ED9 /* LaunchScreen.storyboard in Resources */,
+				FADF378E2BF2B6C700BD7ED9 /* Assets.xcassets in Resources */,
+				FADF37892BF2B6C600BD7ED9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADF37952BF2B6C700BD7ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADF379F2BF2B6C700BD7ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADF377A2BF2B6C600BD7ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADF37862BF2B6C600BD7ED9 /* ViewController.swift in Sources */,
+				FADF37822BF2B6C600BD7ED9 /* AppDelegate.swift in Sources */,
+				FADF37842BF2B6C600BD7ED9 /* SceneDelegate.swift in Sources */,
+				FADF378C2BF2B6C600BD7ED9 /* GodoySoundBoard.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADF37932BF2B6C700BD7ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADF379C2BF2B6C700BD7ED9 /* GodoySoundBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADF379D2BF2B6C700BD7ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADF37A82BF2B6C700BD7ED9 /* GodoySoundBoardUITestsLaunchTests.swift in Sources */,
+				FADF37A62BF2B6C700BD7ED9 /* GodoySoundBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADF37992BF2B6C700BD7ED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADF377D2BF2B6C600BD7ED9 /* GodoySoundBoard */;
+			targetProxy = FADF37982BF2B6C700BD7ED9 /* PBXContainerItemProxy */;
+		};
+		FADF37A32BF2B6C700BD7ED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADF377D2BF2B6C600BD7ED9 /* GodoySoundBoard */;
+			targetProxy = FADF37A22BF2B6C700BD7ED9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADF37872BF2B6C600BD7ED9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADF37882BF2B6C600BD7ED9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADF378F2BF2B6C700BD7ED9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADF37902BF2B6C700BD7ED9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADF37A92BF2B6C700BD7ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADF37AA2BF2B6C700BD7ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADF37AC2BF2B6C700BD7ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GodoySoundBoard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = empresa.GodoySoundBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADF37AD2BF2B6C700BD7ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GodoySoundBoard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = empresa.GodoySoundBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FADF37AF2BF2B6C700BD7ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = empresa.GodoySoundBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GodoySoundBoard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GodoySoundBoard";
+			};
+			name = Debug;
+		};
+		FADF37B02BF2B6C700BD7ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = empresa.GodoySoundBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GodoySoundBoard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GodoySoundBoard";
+			};
+			name = Release;
+		};
+		FADF37B22BF2B6C700BD7ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = empresa.GodoySoundBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GodoySoundBoard;
+			};
+			name = Debug;
+		};
+		FADF37B32BF2B6C700BD7ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = empresa.GodoySoundBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GodoySoundBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADF37792BF2B6C600BD7ED9 /* Build configuration list for PBXProject "GodoySoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADF37A92BF2B6C700BD7ED9 /* Debug */,
+				FADF37AA2BF2B6C700BD7ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADF37AB2BF2B6C700BD7ED9 /* Build configuration list for PBXNativeTarget "GodoySoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADF37AC2BF2B6C700BD7ED9 /* Debug */,
+				FADF37AD2BF2B6C700BD7ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADF37AE2BF2B6C700BD7ED9 /* Build configuration list for PBXNativeTarget "GodoySoundBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADF37AF2BF2B6C700BD7ED9 /* Debug */,
+				FADF37B02BF2B6C700BD7ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADF37B12BF2B6C700BD7ED9 /* Build configuration list for PBXNativeTarget "GodoySoundBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADF37B22BF2B6C700BD7ED9 /* Debug */,
+				FADF37B32BF2B6C700BD7ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FADF378A2BF2B6C600BD7ED9 /* GodoySoundBoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FADF378B2BF2B6C600BD7ED9 /* GodoySoundBoard.xcdatamodel */,
+			);
+			currentVersion = FADF378B2BF2B6C600BD7ED9 /* GodoySoundBoard.xcdatamodel */;
+			path = GodoySoundBoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FADF37762BF2B6C600BD7ED9 /* Project object */;
+}
