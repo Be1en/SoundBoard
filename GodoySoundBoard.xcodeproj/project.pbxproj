@@ -17,6 +17,7 @@
 		FADF379C2BF2B6C700BD7ED9 /* GodoySoundBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF379B2BF2B6C700BD7ED9 /* GodoySoundBoardTests.swift */; };
 		FADF37A62BF2B6C700BD7ED9 /* GodoySoundBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF37A52BF2B6C700BD7ED9 /* GodoySoundBoardUITests.swift */; };
 		FADF37A82BF2B6C700BD7ED9 /* GodoySoundBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF37A72BF2B6C700BD7ED9 /* GodoySoundBoardUITestsLaunchTests.swift */; };
+		FADF37B52BF2C0EE00BD7ED9 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF37B42BF2C0EE00BD7ED9 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FADF37A12BF2B6C700BD7ED9 /* GodoySoundBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodoySoundBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADF37A52BF2B6C700BD7ED9 /* GodoySoundBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodoySoundBoardUITests.swift; sourceTree = "<group>"; };
 		FADF37A72BF2B6C700BD7ED9 /* GodoySoundBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodoySoundBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FADF37B42BF2C0EE00BD7ED9 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		FADF37752BF2B6C600BD7ED9 = {
 			isa = PBXGroup;
 			children = (
+				FADF37B42BF2C0EE00BD7ED9 /* SoundViewController.swift */,
 				FADF37802BF2B6C600BD7ED9 /* GodoySoundBoard */,
 				FADF379A2BF2B6C700BD7ED9 /* GodoySoundBoardTests */,
 				FADF37A42BF2B6C700BD7ED9 /* GodoySoundBoardUITests */,
@@ -265,6 +268,7 @@
 				FADF37822BF2B6C600BD7ED9 /* AppDelegate.swift in Sources */,
 				FADF37842BF2B6C600BD7ED9 /* SceneDelegate.swift in Sources */,
 				FADF378C2BF2B6C600BD7ED9 /* GodoySoundBoard.xcdatamodeld in Sources */,
+				FADF37B52BF2C0EE00BD7ED9 /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
